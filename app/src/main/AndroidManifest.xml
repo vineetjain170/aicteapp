@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vscholars.stack2code.aicte_phaseone">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/CustomTheme">
+
+        <receiver android:name=".IncomingSms"></receiver>
+
+        <activity android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"></activity>
+
+        <activity android:name=".BaseClassAllLists"
+            android:windowSoftInputMode="stateHidden"
+            android:configChanges="orientation|screenSize"></activity>
+
+        <activity android:name=".SplashScreen"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".CourseAndFacultyDetails"></activity>
+
+        <activity android:name=".SignInSignUp"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".mpin"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize"></activity>
+
+        <activity android:name=".OtpVerify"
+            android:configChanges="orientation|screenSize"></activity>
+
+        <activity android:name=".PhoneVerification"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+        <service
+            android:name=".firebaseid">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".firebaseMessage">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:name=".Announcements"></activity>
+        <activity android:name=".Settings"></activity>
+
+    </application>
+
+</manifest>

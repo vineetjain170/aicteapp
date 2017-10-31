@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Filter"
+        android:id="@+id/textView53"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textAppearance="@android:style/TextAppearance.Material"/>
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/x_activity_all_lists_keywords"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/x_double_navigation_drawer_layout_filter_drawer"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="2dp"
+        android:background="#ffffff"
+        android:childDivider="#ffffff"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"/>
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:id="@+id/x_activity_all_lists_keywords"
+        android:textAppearance="@android:style/TextAppearance.Material"
+        android:background="#ffffff"
+        android:hint="Search Course"
+        android:layout_below="@+id/textView53"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:layout_toEndOf="@+id/imageButton2" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/search_icon"
+        android:layout_alignTop="@+id/x_activity_all_lists_keywords"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageButton2" />
+
+</RelativeLayout>

@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">Aicte Official</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string-array name="stateOptions">
+        <item>Andaman And Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra And Nagar Haveli</item>
+        <item>Daman And Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujrat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu And Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Orissa</item>
+        <item>Puducherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string-array name="programOptions">
+        <item>Applied Arts And Crafts</item>
+        <item>Architecture And Town Planning</item>
+        <item>Architecture</item>
+        <item>Town Planning</item>
+        <item>Engineering And Technology</item>
+        <item>Hotel Management And Catering</item>
+        <item>Management</item>
+        <item>MCA</item>
+        <item>Pharmacy</item>
+    </string-array>
+    <string-array name="levelOptions">
+        <item>--All--</item>
+        <item>UG</item>
+        <item>PG</item>
+        <item>Diploma</item>
+    </string-array>
+    <string-array name="institutionType">
+        <item>--All--</item>
+        <item>Unaided - Private</item>
+        <item>Govt Aided</item>
+        <item>University Managed</item>
+        <item>Government</item>
+        <item>Deemed University(Private)</item>
+        <item>University Managed-Govt</item>
+        <item>University Managed-Private</item>
+        <item>Central University</item>
+        <item>Private-Aided</item>
+        <item>Deemed University(Government)</item>
+    </string-array>
+    <string-array name="minorityOptions">
+        <item></item>
+        <item>Y</item>
+    </string-array>
+    <string-array name="womenOptions">
+        <item></item>
+        <item>Y</item>
+    </string-array>
+    <string-array name="courseType">
+        <item>NRI</item>
+        <item>PIO</item>
+        <item>FC</item>
+    </string-array>
+    <string-array name="filterOptionsParentApprovedInstitutes">
+        <item>Year</item>
+        <item>Select Program</item>
+        <item>Select Level</item>
+        <item>Institution Type</item>
+        <item>Select State</item>
+        <item>Minority</item>
+        <item>Women</item>
+    </string-array>
+    <string-array name="filterOptionsParentNriPioFnCiwgTp">
+        <item>Year</item>
+        <item>Course Type</item>
+    </string-array>
+    <string-array name="filterOptionsParentClosedCoursesOrInstitute">
+        <item>Year</item>
+    </string-array>
+    <string-array name="stateOptionDashboard">
+        <item>Andaman And Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra And Nagar Haveli</item>
+        <item>Daman And Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujrat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu And Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Orissa</item>
+        <item>Puducherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string-array name="programOptionDashboard">
+        <item>Applied Arts</item>
+        <item>Architecture</item>
+        <item>Architecture And Town Planning</item>
+        <item>Engineering And Technology</item>
+        <item>Hotel Management</item>
+        <item>Management</item>
+        <item>MCA</item>
+        <item>Pharmacy</item>
+        <item>Town Planning</item>
+    </string-array>
+    <string-array name="institutionTypeDashboard">
+        <item>--All--</item>
+        <item>Unaided-Private</item>
+        <item>Government</item>
+        <item>Govt Aided</item>
+        <item>University Managed</item>
+        <item>University Managed-Govt</item>
+        <item>University Managed-Private</item>
+        <item>Central University</item>
+        <item>Private Aided</item>
+        <item>Deemed University(Private)</item>
+        <item>Deemed University(Government)</item>
+    </string-array>
+    <string-array name="parentOptionsDashboard">
+        <item>Year</item>
+        <item>Select Program</item>
+        <item>Select Level</item>
+        <item>Institution Type</item>
+        <item>Select State</item>
+        <item>Minority</item>
+        <item>Women</item>
+
+    </string-array>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sms">SmsActivity</string>
+    <string name="action_logout">Logout</string>
+    <string name="msg_enter_mobile">Enter your mobile number to get started!</string>
+    <string name="lbl_name">Name</string> <string name="lbl_email">Email</string>
+    <string name="lbl_mobile">Mobile</string> <string name="lbl_next">NEXT</string>
+    <string name="msg_sit_back">Sit back &amp; Relax! while we verify your mobile number</string>
+    <string name="msg_manual_otp">(Enter the OTP below in case if we fail to detect the SMS automatically)</string>
+    <string name="lbl_enter_otp">Enter OTP</string> <string name="lbl_submit">SUBMIT</string>
+</resources>

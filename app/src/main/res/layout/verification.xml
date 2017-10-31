@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@android:drawable/picture_frame">
+
+    <TextView
+        android:text="Enter your Registered Phone Number to continue...."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView8"
+        android:gravity="center_horizontal"
+        android:textAppearance="@android:style/TextAppearance.Material"
+        android:textColor="#f75700"
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/verification_phoneno"
+        android:hint="Phone Number"
+        android:layout_marginLeft="60dp"
+        android:textSize="20dp"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:textColor="?android:attr/textColorPrimaryDisableOnly"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_focused" />
+
+    <Button
+        android:text="Submit"
+        android:layout_below="@+id/verification_phoneno"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/verification_submit"
+        android:background="#f75700"
+        android:textAppearance="@android:style/TextAppearance.Material"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"
+        android:layout_width="150dp"
+        android:layout_height="30dp" />
+</RelativeLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@android:drawable/picture_frame">
+
+    <!--
+        Label_closed courses
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course"
+        android:layout_margin="10dp"
+        android:id="@+id/x_label_approved_institutes_course_details_course"
+        android:textAppearance="@android:style/TextAppearance.Material"
+        android:textStyle="normal|bold" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#dedede"
+        android:layout_margin="10dp"/>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programme"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/x_label_approved_institutes_course_details_programme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="61dp"
+            android:text="set id"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="University"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set institute"
+            android:layout_marginLeft="74dp"
+            android:id="@+id/x_label_approved_institutes_course_details_university"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level of Course"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/x_label_approved_institutes_course_details_course_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:text="set address"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Shift"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/x_label_approved_institutes_course_details_shift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:text="set state"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="full/Part Time"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/x_label_approved_institutes_course_details_full_part_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:text="set district"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intake"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set district"
+            android:layout_marginLeft="96dp"
+            android:id="@+id/x_label_approved_institutes_course_details_intake"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enrolment"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set district"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/x_label_approved_institutes_course_details_enrolment"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

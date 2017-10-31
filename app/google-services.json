@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "564795912836",
+    "firebase_url": "https://aicte-official.firebaseio.com",
+    "project_id": "aicte-official",
+    "storage_bucket": "aicte-official.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564795912836:android:0ad97e9446d4e5f3",
+        "android_client_info": {
+          "package_name": "com.vscholars.stack2code.aicte_phaseone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564795912836-hubm5r46224665t19kirestdvfs3n2pk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vscholars.stack2code.aicte_phaseone",
+            "certificate_hash": "58f2478c1c9dedd53090d90a16e6ab0d560070c6"
+          }
+        },
+        {
+          "client_id": "564795912836-9m835onr54lmh6r86vnefto229qr6sma.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "564795912836-4sck77jj8jeupm09is64d6g8tkd2lgu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzCQZcrWm0-2VIO2nvztHRZYjI9xqEybg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

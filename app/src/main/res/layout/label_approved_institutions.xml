@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@android:drawable/picture_frame">
+
+    <!--
+        Label_approved_institutions
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Institute Name"
+        android:layout_margin="10dp"
+        android:id="@+id/x_label_approved_institutions_name"
+        android:textAppearance="@android:style/TextAppearance.Material"
+        android:textStyle="normal|bold" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#dedede"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AICTE ID"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set id"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/x_label_approved_institutions_aicteid"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set address"
+            android:layout_marginLeft="33dp"
+            android:id="@+id/x_label_approved_institutions_address"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="District"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set id"
+            android:layout_marginLeft="41dp"
+            android:id="@+id/x_label_approved_institutions_district"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Institute"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set id"
+            android:layout_marginLeft="33dp"
+            android:id="@+id/x_label_approved_institutions_institution_type"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Women"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:background="@drawable/ic_check_right"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/x_approved_institutions_womenY"
+                />
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:background="@drawable/ic_cross_red"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/x_approved_institutions_womenN"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minority"
+            android:layout_marginLeft="15dp"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:background="@drawable/ic_check_right"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/x_approved_institutions_minorityY"
+                />
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:background="@drawable/ic_cross_red"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/x_approved_institutions_minorityN"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon_course"
+            android:background="@drawable/ic_course_details" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:gravity=""
+            android:textColor="@color/colorPrimary"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/icon_faculty"
+            android:layout_toEndOf="@+id/icon_faculty"
+            android:text="Course Details"
+            android:id="@+id/x_label_approved_institutes_course_details"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon_faculty"
+            android:background="@drawable/ic_faculty_details" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/x_approved_institutes_faculty_details"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:textColor="@color/colorPrimary"
+            android:text="Faculty Details"
+            android:textStyle="normal|bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

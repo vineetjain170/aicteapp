@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/x_double_navigation_drawer_layout_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <ExpandableListView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/x_activity_all_lists_list_main"
+            android:paddingBottom="45dp"
+            android:paddingTop="45dp"/>
+
+        <include layout="@layout/no_data_entries"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/x_activity_all_lists_list_controller"
+            android:animateLayoutChanges="true"
+            android:background="#ffffff">
+
+            <Button
+                android:id="@+id/x_activity_all_lists_prev_button"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:textAppearance="@android:style/TextAppearance.Material"
+                android:background="@drawable/prev_icon" />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/x_activity_all_lists_next_button"
+                android:textAppearance="@android:style/TextAppearance.Material"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/next_icon" />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:hint="page"
+                android:ems="10"
+                android:id="@+id/x_activity_all_lists_page_no"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textAppearance="@android:style/TextAppearance.Material"
+                android:gravity="center"
+                android:inputType="number" />
+
+            <TextView
+                android:text="/"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:id="@+id/x_activity_all_lists_total_pages"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/x_activity_all_lists_page_no"
+                android:layout_toEndOf="@+id/x_activity_all_lists_page_no"
+                android:textAppearance="@android:style/TextAppearance.Material"
+                android:textStyle="normal|bold" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/x_activity_all_lists_search_tab"
+            android:animateLayoutChanges="true"
+            android:background="#ffffff">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/x_activity_all_lists_live_search"
+                android:inputType="textPersonName"
+                android:layout_alignBottom="@+id/x_activity_all_lists_action_search"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toLeftOf="@+id/x_activity_all_lists_action_search"
+                android:textAppearance="@android:style/TextAppearance.Material"
+                android:background="#ffffff"
+                android:layout_toRightOf="@+id/x_activity_all_lists_action_search"
+                android:layout_toEndOf="@+id/x_activity_all_lists_action_search"
+                android:hint="Search"
+                android:layout_marginTop="15dp"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/x_activity_all_lists_action_search"
+                android:background="@drawable/search_icon"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/x_activity_all_lists_marquee"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:textAppearance="@android:style/TextAppearance.Material"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="normal|bold"
+                android:textColor="#f75700"
+                android:textSize="15dp"/>
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="45dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/x_custom_action_bar_layout_filter_drawer"
+            app:backgroundTint="#f75700"
+            android:src="@drawable/funnel" />
+    </android.support.design.widget.CoordinatorLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#f75700"
+            android:orientation="vertical"
+            android:id="@+id/nav_main_header"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/splash"
+                android:paddingTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingBottom="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"/>
+
+        </RelativeLayout>
+
+        <ListView android:id="@+id/x_double_navigation_drawer_layout_main_drawer"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:background="#ffffff"
+            android:layout_below="@id/nav_main_header"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="#ffffff">
+
+        <include layout="@layout/filter_nav_drawer_all_lists"/>
+
+    </RelativeLayout>
+
+
+
+</android.support.v4.widget.DrawerLayout>

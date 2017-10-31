@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@android:drawable/picture_frame">
+
+    <!--
+        Label_closed courses
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculty Name"
+        android:layout_margin="10dp"
+        android:id="@+id/x_label_approved_institutes_faculty_details_name"
+        android:textAppearance="@android:style/TextAppearance.Material"
+        android:textStyle="normal|bold" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#dedede"
+        android:layout_margin="10dp"/>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty ID"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/x_label_approved_institutes_faculty_details_fid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="set id"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set institute"
+            android:layout_marginLeft="95dp"
+            android:id="@+id/x_label_approved_institutes_faculty_details_gender"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Designation"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/x_label_approved_institutes_faculty_details_designation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="68dp"
+            android:text="set address"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Date of Joining"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/x_label_approved_institutes_faculty_details_joining_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="46dp"
+            android:text="set state"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Area of Specialisation"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/x_label_approved_institutes_faculty_details_specialisation_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="set district"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Appointment Type"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="@android:style/TextAppearance.Material"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set district"
+            android:layout_marginLeft="26dp"
+            android:id="@+id/x_label_approved_institutes_faculty_details_appointment_type"
+            android:textAppearance="@android:style/TextAppearance.Material" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
