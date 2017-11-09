@@ -13,46 +13,38 @@ import java.util.List;
 public class AdapterForNotifications extends BaseExpandableListAdapter{
 
     Context context;
-    int categories;
-    int parameters;
-    List<String> categoriesNames;
-    String[][][] data;
-    HashMap<String,Integer> enteries;
+    String[] titlesArray;
+    String[] bodyArray;
+    String[] messageArray;
 
-    AdapterForNotifications(Context context,int categories,int parameters, List<String> categoriesNames,HashMap<String,Integer>enteries,String[][][] data){
-
-        //categories is the number of notifications, parameters value would be 3 only because the content of notification is title body and message, categories names is any group header for notification, data is stored in 3-d data, enteries gives number of children for group here it would be 1
-        //supply the required parameters and the adapter is good to go
+    AdapterForNotifications(Context context,String[] titlesArray,String[] bodyArray,String[] messageArray){
         this.context=context;
-        this.categories=categories;
-        this.parameters=parameters;
-        this.categoriesNames=categoriesNames;
-        this.data=data;
-        this.enteries=enteries;
+        this.titlesArray=titlesArray;
+        this.bodyArray=bodyArray;
+        this.messageArray=messageArray;
     }
 
     @Override
     public int getGroupCount() {
-        return this.categories;
+        return titlesArray.length;
     }
 
     @Override
     public int getChildrenCount(int groupPosition) {
-        return enteries.get(categoriesNames.get(groupPosition));
+        return 1;
     }
 
     @Override
     public Object getGroup(int groupPosition) {
-        return this.categoriesNames.get(groupPosition);
+        return titlesArray[groupPosition];
     }
 
     @Override
     public Object getChild(int groupPosition, int childPosition) {
 
-        String[] parameterValue=new String[this.parameters];
-        for (int i=0;i<this.parameters;++i){
-            parameterValue[i]=data[groupPosition][childPosition][i];
-        }
+        String[] parameterValue=new String[2];
+        parameterValue[0]=bodyArray[groupPosition];
+        parameterValue[1]=messageArray[groupPosition];
         return parameterValue;
     }
 
@@ -88,22 +80,15 @@ public class AdapterForNotifications extends BaseExpandableListAdapter{
         final LayoutInflater infalInflater = (LayoutInflater) this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         final String[] values=(String[]) getChild(groupPosition,childPosition);
 
-            convertView = infalInflater.inflate(R.layout.label_announcements, null);
-
-            final TextView title,body,message;
-
-            View[] layoutViews={convertView.findViewById(R.id.x_label_announcements_title),
-                    convertView.findViewById(R.id.x_label_announcements_body),
-                    convertView.findViewById(R.id.x_label_announcements_message)};
-
-            title=(TextView)layoutViews[0];
-            body=(TextView)layoutViews[1];
-            message=(TextView)layoutViews[2];
-
-            title.setText(values[0]);
-            body.setText(values[1]);
-            message.setText(values[2]);
-            return convertView;
+        convertView = infalInflater.inflate(R.layout.label_announcements, null);
+        final TextView title,body,message;
+        View[] layoutViews={convertView.findViewById(R.id.x_label_announcements_body),
+                convertView.findViewById(R.id.x_label_announcements_message)};
+        body=(TextView)layoutViews[0];
+        message=(TextView)layoutViews[1];
+        body.setText(values[0]);
+        message.setText(values[1]);
+        return convertView;
     }
 
     @Override

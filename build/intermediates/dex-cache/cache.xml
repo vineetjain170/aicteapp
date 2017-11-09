@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="c9d9dddbee163dcbbe77e3e1b48e5864ce2ca407">
+        sha1="3f4f7305fa3a7f4e86302e1d8af7e0071b6d99a4">
         <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_171bc1c78ff534255d2595018db29a102895d411/classes.dex" />
     </item>
     <item
@@ -223,7 +223,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="b88a1fe2f518f7f8aa00a5eefdb768b3a09f59eb">
+        sha1="4376ed632346dca30e504369abbb11f2befa5031">
         <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7ed6fc7a9030fd3ba57aee5e760c7b813874f6f0/classes.dex" />
     </item>
     <item

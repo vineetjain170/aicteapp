@@ -3,8 +3,8 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ListView
+    <ExpandableListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/announcements_listview"></ListView>
+        android:id="@+id/announcements_listview"></ExpandableListView>
 </LinearLayout>

@@ -9,16 +9,18 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.ExpandableListView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.HashMap;
 import java.util.StringTokenizer;
 
 public class Announcements extends AppCompatActivity{
 
-    ListView mainList;
+    ExpandableListView mainList;
     SharedPreferences sharedPreferences;
     TextView J_ActionBarTitle;
     ImageView actionBarIcon;
@@ -27,7 +29,7 @@ public class Announcements extends AppCompatActivity{
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.announcements);
-        mainList=(ListView)findViewById(R.id.announcements_listview);
+        mainList=(ExpandableListView)findViewById(R.id.announcements_listview);
 
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setDisplayShowCustomEnabled(true);
@@ -48,12 +50,8 @@ public class Announcements extends AppCompatActivity{
             String[] notificationTitlesArray=notificationTitles.split("\\!\\@\\#\\$\\%\\^\\&\\*\\(\\)",-1);
             String[] notificationBodyArray=notificationBody.split("\\!\\@\\#\\$\\%\\^\\&\\*\\(\\)",-1);
             String[] notificationMessagesArray=notificationMessages.split("\\!\\@\\#\\$\\%\\^\\&\\*\\(\\)",-1);
-            for(int i=0;i<notificationTitlesArray.length;++i){
 
-                Log.d(i+"",notificationTitlesArray[i]);
-
-            }
-            mainList.setAdapter(new AdapterForAnnouncements(Announcements.this,notificationTitlesArray,notificationBodyArray,notificationMessagesArray,notificationCount));
+            mainList.setAdapter(new AdapterForNotifications(Announcements.this,notificationTitlesArray,notificationBodyArray,notificationMessagesArray));
 
         }else {
 
