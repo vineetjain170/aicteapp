@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "564795912836-hubm5r46224665t19kirestdvfs3n2pk.apps.googleusercontent.com",
+          "client_id": "564795912836-m5piqg5jbvn5d9qb9e7bogteqafseubc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.vscholars.stack2code.aicte_phaseone",
-            "certificate_hash": "58f2478c1c9dedd53090d90a16e6ab0d560070c6"
+            "certificate_hash": "42d92c7ffac2bbd6cdd1859281368f0c1680817a"
           }
         },
         {
@@ -29,6 +29,14 @@
         {
           "client_id": "564795912836-4sck77jj8jeupm09is64d6g8tkd2lgu1.apps.googleusercontent.com",
           "client_type": 3
+        },
+        {
+          "client_id": "564795912836-13uhbg2kiu7hfh71lvm2906d7e6mgbva.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vscholars.stack2code.aicte_phaseone",
+            "certificate_hash": "140dc5bc5cb2bb622f49818cebe7f8fb3d7c1b99"
+          }
         }
       ],
       "api_key": [
