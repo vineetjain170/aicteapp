@@ -2,247 +2,254 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/home/vineet_jain/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.4.1.1/c8d96f6fd2bcc179c312da33ee670a71188cc60d/httpclient-4.4.1.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.0.aar/74eed31985177b1c9ab75723e8e8b86c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="23.0.3"
-        sha1="c8d96f6fd2bcc179c312da33ee670a71188cc60d">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-4.4.1.1_e5bdbc5e08420775a8265cffcff4986a0aee9e54/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3f4f7305fa3a7f4e86302e1d8af7e0071b6d99a4">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_171bc1c78ff534255d2595018db29a102895d411/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_96b5ec67ec788a0fde0212ccf549dc5c982434ae/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_b732138a481e5ca733f46bd187c02b17392f6702/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_9bad13b51709a048da4d4e882abd796f0a3004b5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
+        revision="26.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_55ae82c1663326d5d56b04ce0bd91cc84d8bc63b/classes.dex" />
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/20.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/59d38ec55590600425b7fd0921785f8d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="23.0.3"
-        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.0.1_7fa4ddc4fc6950f806ab6649e669c723e5bcc8a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_909089731c830848fbe2387e3fe7cf8c106af81f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_f9d541ec4e650c8c9a2e914ac2728e8f1443154f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_ad1d5858d81bce1a2d02b754268919fd12f5bc7b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_494d1a28988e79691d86334b30c78ce71b9fe3bd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_b67e50b7ca4a72244b3c6030757ac4f50690e58d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
+        revision="26.0.2"
         sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_e0bc66f63be52e5192da06cb798c7a6199eac453/classes.dex" />
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.0.aar/df474cb4e33d72b62705efbe1c98980f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="23.0.3"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_c17294af43bf4626498dfdfee57ff8c3dcda009b/classes.dex" />
+        revision="26.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/8.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/061c790be8935dc15209bba059f1ca60/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="23.0.3"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_99b6efb1a953e2a2fbfd510284afab13040fdf44/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_1569e30dcd92c46905e57eedde57543b86669632/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_43c747d304c5e44aa964ce1c458a9f110a9f7c1f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_a2b6f666e19897d6e7f0058321aa809435216cf8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_39f20d281b1d70149b7b5633863c8fe0f4cbaaf0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_8c8405a2b0d7f77790c4af4aacfe3151a2b7273e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_3fabc9b19a3fdeecd15b8ee968e41d32276f471e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
+        revision="26.0.2"
         sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_4774cc5d75ec87306cace75920d120f1993a4bc4/classes.dex" />
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/13.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.1.0.aar/2e89f35fb3a7934053d811d42e07d42d/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="23.0.3"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_7a239b6649a866bfe4d89d82953f96f2ae82827b/classes.dex" />
+        revision="26.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/10.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.0.aar/e4b631a53d7d7126a2c9505d27265481/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="23.0.3"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_9dabdb7b7e3b0555befdcacfc635ad0a39a0599c/classes.dex" />
+        revision="26.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/24.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.0.aar/735875ab4d8bbf3884b1b6cc36a546fd/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="23.0.3"
-        sha1="4376ed632346dca30e504369abbb11f2befa5031">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7ed6fc7a9030fd3ba57aee5e760c7b813874f6f0/classes.dex" />
+        revision="26.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/23.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/transition-25.1.0.aar/4a71d77af2488e482204135c5aab1887/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="23.0.3"
+        revision="26.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/firebase-common-10.0.1.aar/8cde56b7ab5acdb65aafb33c95bb476f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.0.aar/d566eac523632dd7785092efa35530ff/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-10.0.1.aar/d0e65003659f008d744dc0e6b4b368f8/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/play-services-auth-10.0.1.aar/d36ecea7c0e106a5b26cf9270826dd7a/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.0.aar/72d0479ff5697fa5353e1f55c38aefae/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.4.1.1/c8d96f6fd2bcc179c312da33ee670a71188cc60d/httpclient-4.4.1.1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c8d96f6fd2bcc179c312da33ee670a71188cc60d">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.0.1.aar/fa345ad08eaaf7b9ef3ba9d9b35788ff/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/c1f4e5eaedf4469f9416849b0856c103/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/firebase-auth-10.0.1.aar/b1d7bf1e777f36db0fdb1cfd30f309ec/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
         sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_aff6657c50e7522af247805afa7f0b093a8af024/classes.dex" />
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/5.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.0.aar/5408b32bc48780bb54039f58223d7b9c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
         optimize="true"
-        revision="23.0.3"
+        revision="26.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.0.aar/033ee899c074d4b749afdacb1a15480b/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/play-services-base-10.0.1.aar/4b87eaf015b554fb16af1279da8e9ce6/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
         sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="/home/vineet_jain/Downloads/newrep-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_966053945c81ea3724a73dfac5158ff8f87fc0b3/classes.dex" />
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/78cf7c83b716cf87fe9507c2b2d10d11/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/4b8389deec2b3e1d057aef17e2286222/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.0.aar/f7917adb053d86b131f1d3954acd1f43/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/streetcode/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/54c9e3882bd7bf58f27b1790544abcb1/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/streetcode/forked/aicteapp/app/build/intermediates/transforms/preDex/release/18.jar" />
     </item>
 
 </items>

@@ -312,7 +312,7 @@ public class SignInSignUp extends AppCompatActivity implements GoogleApiClient.O
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-
+        Log.e("Data input", "onActivityResult:"+data.getData(),null );
         GoogleSignInResult googleSignInResult=Auth.GoogleSignInApi.getSignInResultFromIntent(data);
         handleresult(googleSignInResult);
     }
